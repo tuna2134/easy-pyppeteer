@@ -1,9 +1,8 @@
 from pyppeteer.launcher import Launcher
 from pyppeteer.browser import Browser
-from typing import Any
+
 
 class launch(Launcher):
-            
     @property
     def browser(self) -> Browser:
         return self.__browser
