@@ -3,6 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
     
+with open(f"epyppeteer/__init__.py", "r") as f:
+    text = f.read()
+    version = text.split('__version__ = "')[1].split('"')[0]
+    
 def _requires_from_file(filename):
     return open(filename, encoding="utf8").read().splitlines()
 
