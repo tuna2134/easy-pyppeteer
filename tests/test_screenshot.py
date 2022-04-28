@@ -7,4 +7,4 @@ async def test_use_browser():
     async with launch() as browser:
         page = await browser.newPage()
         await page.goto("https://example.com")
-        await page.screenshot({"path": "image.png"})
+        await page.screenshot({"path": "example.png"})
