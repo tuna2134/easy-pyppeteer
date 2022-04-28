@@ -1,4 +1,5 @@
 import pytest
+import asyncio
 from epyppeteer import launch
 
 
