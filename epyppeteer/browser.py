@@ -1,4 +1,5 @@
 from pyppeteer.browser import Browser as OldBrowser, BrowserContext as OldBrowserContext
+from pyppeteer.page import Page
 
 
 class Browser(OldBrowser):
