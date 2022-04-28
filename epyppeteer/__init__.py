@@ -1,4 +1,4 @@
-from .browser import launch
+from .launch import launch
 
 __all__ = ("launch")
 __version__ = "0.0.6"
