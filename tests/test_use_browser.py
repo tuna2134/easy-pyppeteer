@@ -12,3 +12,4 @@ async def test_use_browser():
         await page.goto("https://example.com")
         print(await page.title())
         await page.screenshot({"path": "example.png"})
+    return True
