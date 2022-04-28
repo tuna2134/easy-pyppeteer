@@ -8,7 +8,7 @@ class launch:
         self.browser: Browser = None
         
     async def __aenter__(self) -> Browser:
-        self.browser = await oldlaunch(*args, **kwargs)
+        self.browser = await oldlaunch(*self.args, **self.kwargs)
         return self.browser
     
     async def __aexit__(self, *args, **kwargs):
