@@ -1,4 +1,4 @@
-from pyppeteer import Launch
+from pyppeteer.launcher import Launch
 from pyppeteer.browser import Browser
 from typing import Any
 
