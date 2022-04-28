@@ -1,5 +1,5 @@
 from pyppeteer.launcher import Launcher
-from .browser import Browser, BrowserContext
+from pyppeteer.browser import Browser
 
 
 class launch(Launcher):
