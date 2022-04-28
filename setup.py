@@ -8,7 +8,7 @@ def _requires_from_file(filename):
 
 setuptools.setup(
     name="epyppeteer",
-    version="0.0.4",
+    version="0.0.5",
     author="DMS",
     author_email="masato190411@gmail.com",
     description="Easy to using pyppeteer",
