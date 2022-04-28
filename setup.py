@@ -8,10 +8,10 @@ def _requires_from_file(filename):
 
 setuptools.setup(
     name="epyppeteer",
-    version="0.0.1",
+    version="0.0.2",
     author="DMS",
     author_email="masato190411@gmail.com",
-    description="This is for google custom search api.",
+    description="Easy to using pyppeteer",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/tuna2134/easy-pyppeteer",
