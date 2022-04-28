@@ -1,6 +1,6 @@
 import pytest
-import asyncio
 from epyppeteer import launch
+
 
 @pytest.mark.asyncio
 async def test_use_browser():
