@@ -8,7 +8,7 @@ def _requires_from_file(filename):
 
 setuptools.setup(
     name="epyppeteer",
-    version="2.0.5a",
+    version="0.0.1",
     author="DMS",
     author_email="masato190411@gmail.com",
     description="This is for google custom search api.",
