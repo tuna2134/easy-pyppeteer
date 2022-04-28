@@ -1,8 +1,8 @@
-import pytest_asyncio
+import pytest
 from epyppeteer import launch
 
 
-@pytest_asyncio.fixture
+@pytest.mark.asyncio
 async def async_gen_fixture():
     async with launch() as browser:
         page = await browser.newPage()
