@@ -22,8 +22,8 @@ class Browser(OldBrowser):
                      ignoreHTTPSErrors: bool, defaultViewport: Optional[Dict],
                      process: Optional[Popen] = None,
                      closeCallback: Callable[[], Awaitable[None]] = None,
-                     **kwargs: Any) -> Browser:
-        """Create browser object."""
+                     **kwargs: Any) -> "Browser":
+        """Same."""
         browser = Browser(connection, contextIds, ignoreHTTPSErrors,
                           defaultViewport, process, closeCallback)
         await connection.send('Target.setDiscoverTargets', {'discover': True})
